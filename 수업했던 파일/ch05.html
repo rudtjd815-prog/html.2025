@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        #container {
+            width: 600px;
+            margin: 10px auto;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <h1>회원가입</h1>
+    <form action="">
+        <fieldset>
+            <legend>필수항목</legend>
+            <ul>
+                <li>
+                    <label for="name">이름:</label>
+                    <input type="text" name="name" id="name" maxlength="5" autofocus>
+                </li>
+                <li>
+                    <label for="email">이메일:</label>
+                    <input type="email" name="email" id="email" size="5">
+                </li>
+                <li>
+                    <label for="phone">전화번호 :</label>
+                    <input type="tel" name="phone" id="phone" placeholder="010-1234-5678">
+                </li>
+                <li>
+                    <label for="password1">패스워드 :</label>
+                    <input type="password" name="password1" id="password1">
+                </li>
+                <li>
+                    <label for="password2">패스워드 확인 :</label>
+                    <input type="password" name="password2" id="password2">
+                </li>
+                <li>
+                    <label for="birthday">생년월일 :</label>
+                    <input type="date" name="birthday" id="birthday">
+                </li>
+                
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>선택항목</legend>
+            <ul>
+                <li>
+                    <input type="radio" name="mailling" id="mailling_yes" value="m_yes">
+                    <label for="mailling_yes">수신 동의</label>
+                    <input type="radio" name="mailling" id="mailling_no" value="m_no">
+                    <label for="mailling_no">수신 거부</label>
+                </li>
+                <h4>관심사항</h4>
+                <li>
+                    <input type="checkbox" name="hobby" id="h_sports" value="sports">
+                    <label for="h_sports">스포츠</label>
+                    <input type="checkbox" name="hobby" id="h_movie" value="movie">
+                    <label for="h_movie">영화</label>
+                    <input type="checkbox" name="hobby" id="h_travel" value="travel">
+                    <label for="h_travel">스포츠</label>
+                </li>
+                <li>
+                    가입 경로<label for="">가입경로</label>
+                    <select name="path" id="path">
+                        <option value="blog">블로그</option>
+                        <option value="portal">포털</option>
+                        <option value="youtube">유튜브</option>
+                    </select>
+                </li>
+                <li>
+                    메모 <br>
+                    <textarea name="memo" id="memo" cols="30" rows="10"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="제출">
+        <input type="reset" value="초기화">
+    </form>
+    </div> 
+</body>
+</html>
