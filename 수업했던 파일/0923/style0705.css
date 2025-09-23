@@ -1,0 +1,23 @@
+.container{
+    width: 600px;
+    margin: 0 auto;
+   /* border: 1px solid black; */
+
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+table{
+    width: 100%;
+    caption-side: bottom;
+    border: 1px solid #f22;
+    border-collapse: collapse;
+}
+th{background-color:aliceblue ;}
+td, th{
+    border: 1px solid #222;
+    text-align: center;
+    padding: 5px;
+}
