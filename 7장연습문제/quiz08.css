@@ -1,26 +1,21 @@
-
-		#container {  
-            width: 650px;
-            margin: 0 auto;
-            border: 1px solid black;
-            padding: 5px;
-		}
-		#check {   width: 640px;
-
-            
-			}		
-		h1 {
-            color: white;background-color: black;
-            font-size: 1em;
-            margin: 0 auto; padding: 10px;
-		}		
-        h2 {
-            color: red; font-size: 1.5em; text-align: center;
-        }
-        p{ font-size: 1.2em; line-height: 2em; font-weight: bold;
-        text-align:  center;}
-        .accent{
-            color: #00f;
-
-        }
-        .smalltext{font-size: 0.7em;}
+ table {
+      border:1px solid black;
+      border-collapse:collapse;
+      caption-side: bottom;
+    }
+    caption {
+      text-align: right;
+    }
+    td, th {
+      border:1px solid black;
+      padding:10px;
+    }
+    th {
+      text-align: left;
+    }
+    td {
+      text-align: right;
+    }
+    .col3 {
+      background: #e5f6f6;
+    }
