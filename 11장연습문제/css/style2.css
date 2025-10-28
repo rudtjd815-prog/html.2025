@@ -1,0 +1,15 @@
+.container {
+    width: 800px;
+    display: flex;
+    border: 1px solid #222;
+    gap: 30px;
+}
+.box{
+    background-color: #222;
+    flex-basis: 150px;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
