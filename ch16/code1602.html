@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let numberA = parseInt( prompt("첫번째 숫자를 입력하시오."));
+    let numberB = parseInt( prompt("두번째 숫자를 입력하시오."));
+    let opcode = prompt("연산자를 입력하시오.");
+    let result;
+    if (opcode == '+')
+        result =numberA + numberB;
+        if (opcode == '-')
+        result =numberA - numberB;
+        if (opcode == '*')
+        result =numberA * numberB;
+   document.write(`<p> ${numberA} ${opcode} ${numberB} = ${result}</p>` );
+</script>
+</body>
+</html>
